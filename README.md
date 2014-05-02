@@ -11,10 +11,10 @@ add the "angularjs_dynamic_template.js to your working directory.
 Load the template and change the "app.directive" to feet your app directives structure.
 
 USAGE:
-,,,,html
+````html
 
 <div dynamic-template type="'video'" content="videoObject"></div>
-,,,,
+````
 This example loads the /views/partials/templates/video.html template and passes the videoObject as the content.
 1. baseUrl - Is the PREFIX path you want to load the templates from.
 2. type - Is the SUFFIX html file you want to load the templates from.
